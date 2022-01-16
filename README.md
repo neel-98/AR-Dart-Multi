@@ -1,7 +1,7 @@
 # AR-Dart-Multi 
 This Project is made in Unity3D by using [ARCore](https://developers.google.com/ar/develop) which is Google's Platform for building Augmented Reality experiences. This project is basically a mini game which can be played by 2 players connected in same Wi-Fi. Player who host the game is given blue color darts while other is given red color darts. Darts can be thrown at a same time as well as on turn basis from each device, which depends on players how they want to play. Both Players are given 5 darts to play, which is in sync on both devices so they can see each other's scores along with remaining darts. 
 
-[Clound Anchors](https://developers.google.com/ar/develop/unity-arf/cloud-anchors/overview) are used to accomplish  multiplayer functionality. Cloud Anchors are anchors that are hosted on [ARCore Cloud Anchor] Service(https://console.cloud.google.com/apis/library/arcorecloudanchor.googleapis.com). 
+[Clound Anchors](https://developers.google.com/ar/develop/unity-arf/cloud-anchors/overview) are used to accomplish  multiplayer functionality. Cloud Anchors are anchors that are hosted on [ARCore Cloud Anchor Service](https://console.cloud.google.com/apis/library/arcorecloudanchor.googleapis.com). 
 ARCore connects to the ARCore Cloud Anchor service to host and resolve Cloud Anchors and enable shared experience. 
 
 Here’s a high-level picture of how hosting and resolving works:
